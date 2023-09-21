@@ -146,3 +146,24 @@ Date:   Thu Sep 21 17:38:08 2023 -0300
 
 - create `about_us.md`
 - invoke from `toc` in `index.rst`
+
+```bash
+commit 880c6d4e1fbb3e46a535248e5c3c8d7105eb549f (HEAD -> master)
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Thu Sep 21 18:29:51 2023 -0300
+
+    Ch02 First Markdown Page
+
+ .vscode/settings.json |  6 +++++-
+ README.md             | 34 +++++++++++++++++++++++++++++++++-
+ about_us.md           |  3 +++
+ conf.py               | 19 ++++++++++---------
+ index.rst             |  2 +-
+ requirements.txt      |  3 ++-
+ 6 files changed, 54 insertions(+), 13 deletions(-)
+```
+
+#### Cleanup
+
+- Cleanup in config file, etc.
+- Convert index page to 100% markdown
