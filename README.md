@@ -114,3 +114,35 @@ Date:   Thu Sep 21 17:16:38 2023 -0300
 - Run `run_liverelaod.py` (in VS Code right-click on file and select `Run Python File in Terminal`)
 - Point browser at [localhost served web app](http://127.0.0.1:5500/)
 - Modify `index.rst` to see `livereload` at work
+- commit
+
+```bash
+commit 7f94bb47d80772c0e750b1d073a3421815659274 (HEAD -> master)
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Thu Sep 21 17:38:08 2023 -0300
+
+    Ch02 install and use livereload
+
+ README.md         | 28 +++++++++++++++++++++++++++-
+ index.rst         |  2 ++
+ requirements.txt  |  3 ++-
+ run_livereload.py | 10 ++++++++++
+ 4 files changed, 41 insertions(+), 2 deletions(-)
+```
+
+#### Add Markdown
+
+- Sphinx uses RST (re-structured text) but we want markdown
+- We can add Markdown to Sphinx via [Myst](https://myst-parser.readthedocs.io/en/latest/)
+
+> MyST - Markedly Structured Text - Parser
+>
+> A Sphinx and Docutils extension to parse MyST, a rich and extensible flavour of Markdown for authoring technical and scientific documentation.
+
+- Install `myst-parser` package via `requirements.txt`
+- To actually use markdown now with Sphinx, we need to tell Sphinx it's there by listing it as an extension in the `conf.py` file
+
+#### First Markdown Page
+
+- create `about_us.md`
+- invoke from `toc` in `index.rst`

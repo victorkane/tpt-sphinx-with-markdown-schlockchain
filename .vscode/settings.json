@@ -1,3 +1,7 @@
 {
-  "workbench.colorTheme": "Noctis Azureus"
+  "workbench.colorTheme": "Noctis Azureus",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none"
 }

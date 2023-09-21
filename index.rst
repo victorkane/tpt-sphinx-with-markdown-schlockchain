@@ -12,7 +12,7 @@ Enjoy!
    :maxdepth: 2
    :caption: Contents:
 
-
+   about_us 
 
 Indices and tables
 ==================
