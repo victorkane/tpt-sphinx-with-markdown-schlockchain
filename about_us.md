@@ -27,7 +27,11 @@ We have a patented algorithm:
 Schlockchain is written in [Python](https://www.python.org/) for some 
 data science or something reasons.
 
+![Python Logo](https://python.org/static/img/python-logo.png)
+
 For a sexy carousel of stock photos, visit [](./index).
+
+![Python Logo downloaded for this site](./python-logo.png)
 
 ## Investors
 

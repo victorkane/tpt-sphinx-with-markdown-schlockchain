@@ -196,3 +196,7 @@ Date:   Thu Sep 21 18:55:29 2023 -0300
 #### Formatting
 
 - We explore markdown formatting in the `about_us.md` file/page
+
+#### Images
+
+- We add an image in two ways (local static file and external)
