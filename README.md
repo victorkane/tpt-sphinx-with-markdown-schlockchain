@@ -167,3 +167,32 @@ Date:   Thu Sep 21 18:29:51 2023 -0300
 
 - Cleanup in config file, etc.
 - Convert index page to 100% markdown
+
+```bash
+commit 08037c452a420dcbafd6a49ff0779b77a4372891 (HEAD -> master)
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Thu Sep 21 18:58:15 2023 -0300
+
+    fix: remove indentation from toctree syntax for markdown
+
+ index.md | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 5fefb80418bf2448170aff0ef3288a2feb723f3c
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Thu Sep 21 18:55:29 2023 -0300
+
+    Cleanup config file, etc; convert simple index page to pure markdown
+
+ README.md | 23 ++++++++++++++++++++++-
+ conf.py   | 18 ------------------
+ index.md  | 10 ++++++++++
+ index.rst | 22 ----------------------
+ 4 files changed, 32 insertions(+), 41 deletions(-)
+```
+
+### Chapter 03 Simple Markdown
+
+#### Formatting
+
+- We explore markdown formatting in the `about_us.md` file/page
