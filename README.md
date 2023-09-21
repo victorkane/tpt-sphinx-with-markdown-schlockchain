@@ -200,3 +200,8 @@ Date:   Thu Sep 21 18:55:29 2023 -0300
 #### Images
 
 - We add an image in two ways (local static file and external)
+
+#### Markdown and Sphinx
+
+- Sphinx is a SSG, but not just another one
+- Incredible features: [Sphinx docs](https://www.sphinx-doc.org/en/master/)
