@@ -88,3 +88,29 @@ source files. Use the Makefile to build the docs, like so:
    make builder
 where "builder" is one of the supported builders, e.g. html, latex or linkcheck.
 ```
+
+- commit
+
+```bash
+commit 7c3eddf2cc35fecc97a26c54e60d2c0cd9f9bd23 (HEAD -> master)
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Thu Sep 21 17:16:38 2023 -0300
+
+    Ch02 Scaffolding a Sphinx Site
+
+ .gitignore |  4 +++-
+ Makefile   | 20 ++++++++++++++++++++
+ README.md  | 66 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ conf.py    | 27 +++++++++++++++++++++++++++
+ index.rst  | 20 ++++++++++++++++++++
+ make.bat   | 35 +++++++++++++++++++++++++++++++++++
+ 6 files changed, 169 insertions(+), 3 deletions(-)
+```
+
+#### Live reload
+
+- Install `livereload` package via requirements.txt
+- Add in `run_livereload.py` to specify watch steps for livereload
+- Run `run_liverelaod.py` (in VS Code right-click on file and select `Run Python File in Terminal`)
+- Point browser at [localhost served web app](http://127.0.0.1:5500/)
+- Modify `index.rst` to see `livereload` at work

@@ -6,6 +6,8 @@
 Welcome to Schlockchain's documentation!
 ========================================
 
+Enjoy!
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
