@@ -107,6 +107,18 @@ Date:   Thu Sep 21 17:16:38 2023 -0300
  6 files changed, 169 insertions(+), 3 deletions(-)
 ```
 
+#### Sphinx Themes
+
+- [Builtin Sphinx theme options and third-party themeso](https://www.sphinx-doc.org/en/master/tutorial/more-sphinx-customization.html#using-a-third-party-html-theme)
+  - [Builtin Sphinx Theme directory](https://www.sphinx-doc.org/en/master/usage/theming.html#builtin-themes)
+  - [Third-party Sphinx Themes Gallery](https://sphinx-themes.org/)
+    - [Book Theme](https://sphinx-themes.org/sample-sites/sphinx-book-theme/)
+      - dark/light switc, double toc, beautiful like Astros special doc thingie
+    - [Furo](https://sphinx-themes.org/sample-sites/furo/) es furor (built for Python docs)!
+      - dark/light switc, double toc, beautiful like Astros special doc thingie
+      - smooth scrolling!
+    - [Nefertiti Theme (two Toc, smooth scrolling)](https://sphinx-themes.org/sample-sites/sphinx-nefertiti/#quickstart)
+
 #### Live reload
 
 - Install `livereload` package via requirements.txt
@@ -242,3 +254,20 @@ Date:   Fri Sep 22 05:28:30 2023 -0300
 
 - See [Sphinx docs: directives](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#directives)
 - Download an image as a static file
+
+```bash
+commit 5ec853e50fbc3ea8b6422a15c5d569aa77872285 (HEAD -> main)
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Fri Sep 22 05:46:30 2023 -0300
+
+    Ch04 Directives and Downloads
+
+ README.md   | 21 ++++++++++++++++++++-
+ about_us.md | 27 +++++++++++++++++++++++++++
+ 2 files changed, 47 insertions(+), 1 deletion(-)
+```
+
+#### Serverless Search
+
+- Built in via reverse index javascript library included in static sites
+- Slow for very large sites, so for example `read the docs` sites use server side `Elastic Search` instead for better performance.
