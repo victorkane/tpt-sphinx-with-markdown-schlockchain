@@ -223,3 +223,22 @@ Date:   Fri Sep 22 04:48:18 2023 -0300
  index.md    |  2 ++
  4 files changed, 26 insertions(+), 1 deletion(-)
 ```
+
+#### TOC: Table of Contents
+
+```bash
+commit c8a252e9ddff96dbe973e528640b43ba818ca859 (HEAD -> main, origin/main)
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Fri Sep 22 05:28:30 2023 -0300
+
+    Ch04 TOC: Table of Contents in both rst and yaml syntax
+
+ README.md | 13 +++++++++++++
+ index.md  | 15 +++++++++++++++
+ 2 files changed, 28 insertions(+)
+```
+
+#### Directives and Downloads
+
+- See [Sphinx docs: directives](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html#directives)
+- Download an image as a static file

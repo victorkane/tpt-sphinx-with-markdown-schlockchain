@@ -48,6 +48,33 @@ For a sexy carousel of stock photos, visit [](./index).
 Python comes from the *Python Software Foundation*.
 :::
 
+Python comes from the *Python Software Foundation*.
+:::
+
+```{note}
+Schlockchain is written in [Python](https://www.python.org/) for
+some data science or something reasons.
+```
+
+```{warning}
+Schlockchain is written in [Python](https://www.python.org/) for
+some data science or something reasons.
+
+- Careful, Python is *awesome*
+- Using it will thus make you *awesome*
+```
+
+:::{warning} Awesomeness Warning
+
+Schlockchain is written in [Python](https://www.python.org/) for
+some data science or something reasons.
+
+- Careful, Python is *awesome*
+- Using it will thus make you *awesome*
+:::
+
+You can {download}`download the Python logo <python-logo.png>` for offline use.
+
 ## Investors
 
 Our investors are very proud to be involved with us.
