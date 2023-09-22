@@ -16,6 +16,7 @@ $ python run_livereload.py
 ```
 
 - Point your browser at `http://127.0.0.1:5500/` to see site running with livereload
+- Ref: [Sphinx Setup](https://www.jetbrains.com/pycharm/guide/tutorials/sphinx_sites/setup/)
 
 ### Chapter 02 Setup (for following the tutorial and creating everything from scratch)
 
