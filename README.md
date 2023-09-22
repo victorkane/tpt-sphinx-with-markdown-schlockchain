@@ -271,3 +271,18 @@ Date:   Fri Sep 22 05:46:30 2023 -0300
 
 - Built in via reverse index javascript library included in static sites
 - Slow for very large sites, so for example `read the docs` sites use server side `Elastic Search` instead for better performance.
+
+### Chapter 05 Linking
+
+#### How Sphinx Linking Works
+
+> Sphinx... keeps kind of a database of all the documents in your sight and everything that is linkable targets and it keeps the path and the title of all of the documents and resources. So that when you make a link, it can insert the title and update the title in the link text.
+>
+> If you change the targets title, it's not just for documents in this example we did colon dot colon. But if you did colon ref colon, you could point to a location that was a role; [a] target somewhere in a document for example, a section heading.
+>
+> And then one other thing that Sphinx can do in addition to providing you the link text and deep linking into a document is it will warn you if you link to something that doesn't exist and that's really not something you can get from some of these other static site generators.
+
+#### Markdown linking
+
+- Links to Sphinx linking via Myst Parser
+- Empty Link Text for markdown links automatically grabs title of target (dynamic, so if it changes in the future, you're covered! "not something you get from other static site generators!)
