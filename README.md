@@ -210,3 +210,16 @@ Date:   Thu Sep 21 18:55:29 2023 -0300
 
 #### Images
 
+```bash
+commit ab8e5964e7aaaf5877b02a6d9e36b7e2be6c3ba4 (HEAD -> main, origin/main)
+Author: Victor Kane <victorkane@gmail.com>
+Date:   Fri Sep 22 04:48:18 2023 -0300
+
+    Ch04 More authoring images with Myst code fences, references with roles
+
+ README.md   |  7 ++++++-
+ about_us.md | 15 +++++++++++++++
+ conf.py     |  3 +++
+ index.md    |  2 ++
+ 4 files changed, 26 insertions(+), 1 deletion(-)
+```
