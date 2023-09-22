@@ -75,6 +75,7 @@ some data science or something reasons.
 
 You can {download}`download the Python logo <python-logo.png>` for offline use.
 
+(investors)=
 ## Investors
 
 Our investors are very proud to be involved with us.

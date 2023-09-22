@@ -286,3 +286,22 @@ Date:   Fri Sep 22 05:46:30 2023 -0300
 
 - Links to Sphinx linking via Myst Parser
 - Empty Link Text for markdown links automatically grabs title of target (dynamic, so if it changes in the future, you're covered! "not something you get from other static site generators!)
+
+#### Headings and roles
+
+- Sphinx uses the term `roles` for linkable markers (like headings) on a page
+- If you designate a heading as a role:
+
+```markdown
+(investors)=
+## Investors
+```
+
+- and then on, say, the index page `ref` that role:
+
+```markdown
+You can also visit our {ref}`investors`.
+```
+
+- then Sphinx searches for that role, warns if it cannot find it, and when it does, extract the title as the link text, and link to that section in the page and section being referenced (we reference `Investors` in about_us from index (see commit below)) 
+
