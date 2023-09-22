@@ -1,6 +1,23 @@
 ## Schlockchain
 
-### Chapter 02 Setup
+### Setup (after cloning this repo)
+
+- clone repo
+- open repo directory with `code .` for VS Code
+- In a terminal do the following
+
+```bash
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install --upgrade pip
+$ pip install -r requirements.txt
+$ make html
+$ python run_livereload.py
+```
+
+- Point your browser at `http://127.0.0.1:5500/` to see site running with livereload
+
+### Chapter 02 Setup (for following the tutorial and creating everything from scratch)
 
 #### Create Project
 
@@ -15,11 +32,11 @@ pip install --upgrade pip
 #### Install Sphinx
 
 ```bash
-(.venv) victorkane@Victors-MacBook-Air schlockchain % cat requirements.txt            
-sphinx%  
+(.venv) victorkane@Victors-MacBook-Air schlockchain % cat requirements.txt
+sphinx%
 (.venv) victorkane@Victors-MacBook-Air schlockchain % which pip
 /Users/victorkane/Work/Learn/python/static-sites-sphinx-markdown/schlockchain/.venv/bin/pip
-(.venv) victorkane@Victors-MacBook-Air schlockchain % pip install -r requirements.txt 
+(.venv) victorkane@Victors-MacBook-Air schlockchain % pip install -r requirements.txt
 ```
 
 - check if Sphinx is installed
@@ -44,7 +61,7 @@ Date:   Thu Sep 21 16:47:38 2023 -0300
  README.md             | 28 ++++++++++++++++++++++++++++
  requirements.txt      |  1 +
  4 files changed, 33 insertions(+)
-(.venv) victorkane@Victors-MacBook-Air schlockchain % 
+(.venv) victorkane@Victors-MacBook-Air schlockchain %
 ```
 
 #### Make a Sphinx site
@@ -61,12 +78,12 @@ Selected root path: .
 You have two options for placing the build directory for Sphinx output.
 Either, you use a directory "_build" within the root path, or you separate
 "source" and "build" directories within the root path.
-> Separate source and build directories (y/n) [n]: 
+> Separate source and build directories (y/n) [n]:
 
 The project name will occur in several places in the built documentation.
 > Project name: Schlockchain
 > Author name(s): Victor Kane
-> Project release []: 
+> Project release []:
 
 If the documents are to be written in a language other than English,
 you can select a language here by its language code. Sphinx will then
@@ -74,7 +91,7 @@ translate text that it generates into that language.
 
 For a list of supported codes, see
 https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-language.
-> Project language [en]: 
+> Project language [en]:
 
 Creating file /Users/victorkane/Work/Learn/python/static-sites-sphinx-markdown/schlockchain/conf.py.
 Creating file /Users/victorkane/Work/Learn/python/static-sites-sphinx-markdown/schlockchain/index.rst.
@@ -294,6 +311,7 @@ Date:   Fri Sep 22 05:46:30 2023 -0300
 
 ```markdown
 (investors)=
+
 ## Investors
 ```
 
@@ -303,5 +321,4 @@ Date:   Fri Sep 22 05:46:30 2023 -0300
 You can also visit our {ref}`investors`.
 ```
 
-- then Sphinx searches for that role, warns if it cannot find it, and when it does, extract the title as the link text, and link to that section in the page and section being referenced (we reference `Investors` in about_us from index (see commit below)) 
-
+- then Sphinx searches for that role, warns if it cannot find it, and when it does, extract the title as the link text, and link to that section in the page and section being referenced (we reference `Investors` in about_us from index (see commit below))
