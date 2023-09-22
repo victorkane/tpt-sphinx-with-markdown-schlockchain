@@ -33,6 +33,21 @@ For a sexy carousel of stock photos, visit [](./index).
 
 ![Python Logo downloaded for this site](./python-logo.png)
 
+```{image} python-logo.png
+:alt: This is the Python Logo
+:class: bg-primary
+:width: 200px
+:align: center
+```
+
+:::{figure-md} logo-target
+:class: myclass
+
+<img src="python-logo.png" alt="The Python Logo" class="bg-primary" width="300px">
+
+Python comes from the *Python Software Foundation*.
+:::
+
 ## Investors
 
 Our investors are very proud to be involved with us.

@@ -205,3 +205,8 @@ Date:   Thu Sep 21 18:55:29 2023 -0300
 
 - Sphinx is a SSG, but not just another one
 - Incredible features: [Sphinx docs](https://www.sphinx-doc.org/en/master/)
+
+### Chapter 04 More Authoring
+
+#### Images
+
