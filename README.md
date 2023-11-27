@@ -1,6 +1,6 @@
 ## Schlockchain
 
-### Setup (after cloning this repo)
+### Setup if cloning this repo
 
 - clone repo
 - open repo directory with `code .` for VS Code
@@ -18,11 +18,24 @@ $ python run_livereload.py
 - Point your browser at `http://127.0.0.1:5500/` to see site running with livereload
 - Ref: [Sphinx Setup](https://www.jetbrains.com/pycharm/guide/tutorials/sphinx_sites/setup/)
 
+### Chapter 01 Intro
+
+- Schlockchain start-up website!
+
 ### Chapter 02 Setup (for following the tutorial and creating everything from scratch)
 
 #### Create Project
 
-If using VS Code, first make sure the Python extension is installed
+- If using VS Code, first make sure the Python extension is installed
+- See Talking in Python's new VS Code course
+
+```bash
+mkdir tpt-sphinx-with-markdown-schlockchain
+cd tpt-sphinx-with-markdown-schlockchain
+code .
+```
+
+- Inside VS Code terminal
 
 ```bash
 python3 -m venv .venv
@@ -32,9 +45,11 @@ pip install --upgrade pip
 
 #### Install Sphinx
 
+- accepting default answers to interactive command-line questions
+
 ```bash
 (.venv) victorkane@Victors-MacBook-Air schlockchain % cat requirements.txt
-sphinx%
+sphinx
 (.venv) victorkane@Victors-MacBook-Air schlockchain % which pip
 /Users/victorkane/Work/Learn/python/static-sites-sphinx-markdown/schlockchain/.venv/bin/pip
 (.venv) victorkane@Victors-MacBook-Air schlockchain % pip install -r requirements.txt
@@ -127,7 +142,7 @@ Date:   Thu Sep 21 17:16:38 2023 -0300
 
 #### Sphinx Themes
 
-- [Builtin Sphinx theme options and third-party themeso](https://www.sphinx-doc.org/en/master/tutorial/more-sphinx-customization.html#using-a-third-party-html-theme)
+- [Builtin Sphinx theme options and third-party themes](https://www.sphinx-doc.org/en/master/tutorial/more-sphinx-customization.html#using-a-third-party-html-theme)
   - [Builtin Sphinx Theme directory](https://www.sphinx-doc.org/en/master/usage/theming.html#builtin-themes)
   - [Third-party Sphinx Themes Gallery](https://sphinx-themes.org/)
     - [Book Theme](https://sphinx-themes.org/sample-sites/sphinx-book-theme/)
