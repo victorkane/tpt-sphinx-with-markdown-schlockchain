@@ -80,11 +80,9 @@ You can download the Python logo {download}`<python-logo.png>` for offline use.
 
 (investors)=
 
-## Investors
+## Cool Investors
 
 Our investors are very proud to be involved with us.
-
-## Redacted
 
 Upon advice of counsel.
 

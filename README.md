@@ -379,6 +379,8 @@ You can also visit our {ref}`investors`.
 
 - then Sphinx searches for that role, warns if it cannot find it, and when it does, extract the title as the link text, and link to that section in the page and section being referenced (we reference `Investors` in about_us from index (see commit below))
 
-## Additional chapters in twin jet brains tut
+### Chapter 06
+
+### Additional chapters in twin jet brains tut
 
 - [Paul Everitt 2021-05-13 Static Sites With Sphinx and Markdown](https://www.jetbrains.com/guide/python/tutorials/sphinx_sites/)
