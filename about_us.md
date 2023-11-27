@@ -2,7 +2,7 @@
 
 We are Schlockchain, thought leaders in innovation.
 
-We are **bold** and *innovative*.
+We are **bold** and _innovative_.
 
 Our `def mega_chain` function works really well:
 
@@ -11,9 +11,12 @@ Our `def mega_chain` function works really well:
 Investors say the best things about us:
 
 > I'm so glad I put my life savings in Schlockchain.
-> > Said Nobody Ever
+>
+> > Said Nobody Eve:q!
+> > r
 
 We have a patented algorithm:
+
 - Glacially slow
 - Which melts glaciers
 
@@ -24,7 +27,7 @@ We have a patented algorithm:
 3. Get a Series B investment round
 4. Continue
 
-Schlockchain is written in [Python](https://www.python.org/) for some 
+Schlockchain is written in [Python](https://www.python.org/) for some
 data science or something reasons.
 
 ![Python Logo](https://python.org/static/img/python-logo.png)
@@ -43,12 +46,12 @@ For a sexy carousel of stock photos, visit [](./index).
 :::{figure-md} logo-target
 :class: myclass
 
-<img src="python-logo.png" alt="The Python Logo" class="bg-primary" width="300px">
+<img src="python-logo.png" alt="The Python Logo" class="bg-primary" width="350px">
 
-Python comes from the *Python Software Foundation*.
+Python comes from the _Python Software Foundation_.
 :::
 
-Python comes from the *Python Software Foundation*.
+Python comes from the _Python Software Foundation_.
 :::
 
 ```{note}
@@ -69,20 +72,17 @@ some data science or something reasons.
 Schlockchain is written in [Python](https://www.python.org/) for
 some data science or something reasons.
 
-- Careful, Python is *awesome*
-- Using it will thus make you *awesome*
-:::
+- Careful, Python is _awesome_
+- Using it will thus make you _awesome_
+  :::
 
-You can {download}`download the Python logo <python-logo.png>` for offline use.
+You can download the Python logo {download}`<python-logo.png>` for offline use.
 
 (investors)=
+
 ## Investors
 
 Our investors are very proud to be involved with us.
-
-## Redacted
-
-Upon advice of counsel.
 
 ## Redacted
 

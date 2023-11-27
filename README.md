@@ -272,6 +272,10 @@ Date:   Thu Sep 21 18:55:29 2023 -0300
 
 ### Chapter 03 Simple Markdown
 
+- Markdown in Sphinx is using [Myst](https://myst-parser.readthedocs.io/en/latest/index.html) is a superset of [CommonMark](https://commonmark.org/).
+  - [Myst JS parser for JS Web Apps](https://github.com/executablebooks/mystmd)
+  - [VS Code extension](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight)
+
 #### Formatting
 
 - We explore markdown formatting in the `about_us.md` file/page
@@ -302,6 +306,8 @@ Date:   Fri Sep 22 04:48:18 2023 -0300
  index.md    |  2 ++
  4 files changed, 26 insertions(+), 1 deletion(-)
 ```
+
+- add colon-fence extension and use for figure (figure image and caption)
 
 #### TOC: Table of Contents
 
@@ -372,3 +378,7 @@ You can also visit our {ref}`investors`.
 ```
 
 - then Sphinx searches for that role, warns if it cannot find it, and when it does, extract the title as the link text, and link to that section in the page and section being referenced (we reference `Investors` in about_us from index (see commit below))
+
+## Additional chapters in twin jet brains tut
+
+- [Paul Everitt 2021-05-13 Static Sites With Sphinx and Markdown](https://www.jetbrains.com/guide/python/tutorials/sphinx_sites/)

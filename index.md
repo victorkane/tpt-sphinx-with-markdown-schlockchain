@@ -13,17 +13,24 @@ You can also visit our {ref}`investors`.
 ```{toctree}
 :maxdepth: 2
 :caption: "Contents:"
-   
+
 about_us
 ```
-
-## toctree II key value pairs using yaml
 
 ```{toctree}
 ---
 maxdepth: 1
-caption: |
-    Contents:
+caption: "Contents for yaml toc"
+
+---
+
+about_us
+```
+
+```{toctree}
+---
+maxdepth: 4
+caption: "Contents for yaml glob toc"
 glob:
 ---
 
