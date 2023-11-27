@@ -156,6 +156,23 @@ Date:   Thu Sep 21 17:16:38 2023 -0300
 
 - Install `livereload` package via requirements.txt
 - Add in `run_livereload.py` to specify watch steps for livereload
+
+```bash
+(.venv) victor@victorpc:tpt-sphinx-with-markdown-schlockchain$ ls -l run_livereload.py
+-rw-rw-r-- 1 victor victor 408 Sep 22 09:12 run_livereload.py
+(.venv) victor@victorpc:tpt-sphinx-with-markdown-schlockchain$ cat run_livereload.py
+from livereload import Server, shell
+
+if __name__ == '__main__':
+    server = Server()
+    server.watch('*.rst', shell('make html'), delay=1)
+    server.watch('*.md', shell('make html'), delay=1)
+    server.watch('*.py', shell('make html'), delay=1)
+    server.watch('_static/*', shell('make html'), delay=1)
+    server.watch('_templates/*', shell('make html'), delay=1)
+    server.serve(root='_build/html')
+```
+
 - Run `run_liverelaod.py` (in VS Code right-click on file and select `Run Python File in Terminal`)
 - Point browser at [localhost served web app](http://127.0.0.1:5500/)
 - Modify `index.rst` to see `livereload` at work
@@ -186,6 +203,23 @@ Date:   Thu Sep 21 17:38:08 2023 -0300
 
 - Install `myst-parser` package via `requirements.txt`
 - To actually use markdown now with Sphinx, we need to tell Sphinx it's there by listing it as an extension in the `conf.py` file
+
+```bash
+(.venv) victor@victorpc:tpt-sphinx-with-markdown-schlockchain$ cat conf.py
+project = "Schlockchain"
+copyright = "2023, Victor Kane"
+author = "Victor Kane"
+extensions = [
+    "myst_parser",
+]
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+html_theme = "alabaster"
+html_static_path = ["_static"]
+myst_enable_extensions = [
+    "colon_fence",
+]
+```
 
 #### First Markdown Page
 
