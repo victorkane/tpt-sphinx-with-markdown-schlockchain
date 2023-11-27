@@ -10,23 +10,23 @@ You can also visit our {ref}`investors`.
 
 ## toctree I key value pairs using rst syntax
 
+<!--
 ```{toctree}
 :maxdepth: 2
 :caption: "Contents:"
 
 about_us
 ```
+-->
 
 ```{toctree}
----
-maxdepth: 1
+maxdepth: 4
 caption: "Contents for yaml toc"
-
----
 
 about_us
 ```
 
+<!--
 ```{toctree}
 ---
 maxdepth: 4
@@ -36,3 +36,4 @@ glob:
 
 *
 ```
+-->
